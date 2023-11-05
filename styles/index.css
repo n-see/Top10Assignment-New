@@ -1,0 +1,15 @@
+.navbar{
+    height: 100px;
+    /* background: #FFD90F; */
+}
+.logo{
+    height: 100px;
+}
+
+.main{
+    margin-top: 20px;
+}
+.duel{
+    width: 750px;
+    border: blue 2px solid;
+}
