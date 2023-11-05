@@ -1,0 +1,14 @@
+.navbar{
+    height: 100px;
+    /* background: #FFD90F; */
+}
+.logo{
+    height: 100px;
+}
+.blip{
+    text-align: center;
+    margin-top: 20px;
+}
+.accordion{
+    margin-bottom: 30px;
+}
