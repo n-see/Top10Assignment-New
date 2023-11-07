@@ -12,7 +12,20 @@
             background-size: cover;
             background-repeat: no-repeat;  
             color: #ffffff;
-            font-family: 'Comic Sans MS', cursive; /* Fun font */
+            font-family: 'Comic Sans MS', cursive;
+        }
+
+        /* Add a custom CSS class to style the container */
+        .custom-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Make the card transparent */
+        .card {
+            background: transparent;
+            border: none;
         }
     </style>
 </head>
@@ -53,33 +66,29 @@
     </div>
   </nav>
 
-   <!-- Content -->
-<div class="main">
+<!-- Content -->
+<div class="container main custom-container">
     <div class="row">
-        <div class="col-12">
+        <div class="col-4">
+            <img src="media/images/StarWarsSimpsonsBanner.png" class="img-fluid" alt="topten" style="max-width: 100%; height: auto;">
+        </div>
+        <div class="col-8">
             <div class="card">
-                <div class="row">
-                    <div class="col-4">
-                        <img src="media/images/StarWarsSimpsonsBanner.png" class="card-img" alt="topten">
-                    </div>
-                    <div class="col-8">
-                        <h1 class="card-title">Welcome to "Top Ten"</h1>
-                        <p class="card-text">
-                            A website dedicated to unveiling the extraordinary world of Top Ten lists that will leave you both astonished and entertained. We delve into the first list, showcasing the top ten times The Simpsons mysteriously predicted the future, an enigmatic phenomenon that continues to baffle us. In our second list, we take you on a journey through the top ten most epic Star Wars adventures that have left an indelible mark on lives across the galaxy. Explore these captivating lists and embark on a unique voyage of discovery with us.
-                        </p>
-                        <img src="media/images/LightSabers.png" alt="LightSabers" width="800" height="650">
-                    </div>
-                </div>
+                <h1 class="card-title text-white">Welcome to "Top Ten"</h1>
+                <p class="card-text text-white">
+                    A website dedicated to unveiling the extraordinary world of Top Ten lists that will leave you both astonished and entertained. We delve into the first list, showcasing the top ten times The Simpsons mysteriously predicted the future, an enigmatic phenomenon that continues to baffle us. In our second list, we take you on a journey through the top ten most epic Star Wars adventures that have left an indelible mark on lives across the galaxy. Explore these captivating lists and embark on a unique voyage of discovery with us.
+                </p>
+                <img src="media/images/LightSabers.png" class="img-fluid" alt="lightsabers" style="width: 500px; height: auto;">
             </div>
         </div>
     </div>
 </div>
 
+
     <!-- Footer -->
     <footer class="text-center p-3 footer">
         &copy; Top Ten List 2023
     </footer>
-
 
     <!-- Bootstrap -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
