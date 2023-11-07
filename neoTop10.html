@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Ten</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/andreaTop10.css">
+    <style>
+        body {
+            background-image: url('media/images/Background.png');
+            background-size: cover;
+            background-repeat: no-repeat;  
+            color: #ffffff;
+            font-family: 'Comic Sans MS', cursive;
+        }
+
+        /* Add a custom CSS class to style the container */
+        .custom-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Make the card transparent */
+        .card {
+            background: transparent;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Audio loop -->
+<audio autoplay loop>
+    <source src="media/audio/StarWars.mp3" type="audio/mpeg">
+</audio>
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFD90F;">
+
+
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="media/images/TopTenLogo.png" alt="Logo" class="logo"></a>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="andreaTop10.html">TopTenSimpsonsMoments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="neoTop10.html">TopTenStarWarsMovies</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+<!-- Content -->
+<img src="media/images/LightSabers.png" class="img-fluid" alt="lightsabers" style="width: 500px; height: auto;">
+
+
+    <!-- Footer -->
+    <footer class="text-center p-3 footer">
+        &copy; Top Ten List 2023
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
