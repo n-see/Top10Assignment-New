@@ -1,0 +1,33 @@
+/* Style for the body */
+body {
+    background-image: url('media/images/Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+/* Style for the navbar */
+.navbar {
+    background-color: #FFD90F;
+}
+
+/* Style for the logo in the navbar */
+.navbar .logo {
+    max-width: 150px; /* Adjust the width as needed */
+}
+
+.main {
+    background-color: rgba(0, 0, 0, 0.6); /* Set background container to transparent with a black tint */
+    padding: 20px; /* Add some padding to the container */
+    border-radius: 10px; /* Add rounded corners */
+    margin-top: 20px; /* Adjust margin-top if needed */
+}
+
+
+/* Style for the footer */
+.footer {
+    background-color: #2E383F;
+    color: #ECECEB;
+
+}

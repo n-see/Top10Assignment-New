@@ -1,71 +1,87 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Top 10 Project</title>
-    <!-- BootStrap Link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles/index.css">
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Ten</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/andreaTop10.css">
+    <style>
+        body {
+            background-image: url('media/images/Background.png');
+            background-size: cover;
+            background-repeat: no-repeat;  
+            color: #ffffff;
+            font-family: 'Comic Sans MS', cursive; /* Fun font */
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Audio loop -->
+<audio autoplay loop>
+    <source src="media/audio/StarWarsSimpsonsHome.mp3" type="audio/mpeg">
+</audio>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src = "media/images/Logo.png"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFD90F;">
+
+
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="media/images/TopTenLogo.png" alt="Logo" class="logo"></a>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="neoTop10"><b>Top Star Wars Movies</b></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="andreaTop10.html">Top Simpsons Moments</a>
-              </li>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+        </button>
 
-    <!-- Content -->
-    <div class="container mt-4">
-        <div class="row">
-            <div class="col-12">
-                <div class="card mb-3">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="media/images/topten.png" class="card-img" alt="topten">//replace with StarSimpsonsBanner
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Welcome Note</h5>//Some catchy 'About Us'
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, nunc non tristique commodo, turpis libero aliquet justo, id consectetur risus nisl ac ipsum. Suspendisse nec diam eget elit vehicula ultrices. Quisque feugiat in sapien id accumsan. Nulla tincidunt bibendum lectus, a fermentum eros. Proin ac lectus nec sapien lobortis dapibus. Integer eleifend justo id arcu tincidunt, vel congue urna vestibulum. Vivamus vitae arcu eu sapien dignissim lacinia. Nullam euismod, mauris sed fringilla vestibulum, odio justo tincidunt lectus, vel fringilla justo urna ut ligula. Suspendisse volutpat eros et mi interdum, sit amet efficitur felis eleifend. Curabitur id metus justo.</p>
-                                <br>
-                                <video src="videos/listvideo.mp4" autoplay loop controls width="640" height="360">//replace with author photos
-                                    Your browser does not support the video tag.
-                                  </video>
-                            </div>
-                        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="andreaTop10.html">TopTenSimpsonsMoments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="neoTop10.html">TopTenStarWarsMovies</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+   <!-- Content -->
+<div class="main">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="media/images/StarWarsSimpsonsBanner.png" class="card-img" alt="topten">
+                    </div>
+                    <div class="col-8">
+                        <h1 class="card-title">Welcome to "Top Ten"</h1>
+                        <p class="card-text">
+                            A website dedicated to unveiling the extraordinary world of Top Ten lists that will leave you both astonished and entertained. We delve into the first list, showcasing the top ten times The Simpsons mysteriously predicted the future, an enigmatic phenomenon that continues to baffle us. In our second list, we take you on a journey through the top ten most epic Star Wars adventures that have left an indelible mark on lives across the galaxy. Explore these captivating lists and embark on a unique voyage of discovery with us.
+                        </p>
+                        <img src="media/images/LightSabers.png" alt="LightSabers" width="800" height="650">
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
     <!-- Footer -->
-    <footer class="text-center p-3" style="background-color: #2E383F; color: #ECECEB;">
+    <footer class="text-center p-3 footer">
         &copy; Top Ten List 2023
     </footer>
 
+
     <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
