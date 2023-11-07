@@ -1,55 +1,45 @@
-/* Style for the body */
+/* Body */
 body {
-    background-image: url('media/images/Background.png');
+    background-image: url('../media/images/Background.png') !important;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    color: #ffffff;
+    color: #FFD90F;
     font-family: 'Comic Sans MS', cursive;
 }
 
-/* Style for the navbar */
+/* Navbar */
 .navbar {
     background-color: #FFD90F;
 }
 
-/* Style for the logo in the navbar */
+/* Logo */
 .navbar .logo {
-    max-width: 150px; /* Adjust the width as needed */
+    max-width: 150px; /* Adjust width as needed */
 }
 
-/* Style for the container with the background image */
-.blip {
-
-}
-
-/* Style for the h1 heading */
+/* H1 heading */
 h1 {
     text-align: center;
-    text-decoration: underline;
-    /* Add any additional styles you want for the h1 */
 }
 
-/* Style for the center-aligned text */
+/* Center-aligned text */
 .center-text {
     text-align: center;
-    /* Add any additional styles you want for centered text */
 }
 
-/* Style for the card titles */
+/* Card titles */
 .card-title {
     color: black;
-    /* Add any additional styles you want for card titles */
 }
 
-/* Style for the card text */
+/* Card text */
 .card-text {
     color: black;
-    /* Add any additional styles you want for card text */
 }
 
-/* Style for the footer */
+/* Footer */
 .footer {
     background-color: #2E383F;
     color: #ECECEB;
-    /* Add any additional styles you want for the footer */
 }
