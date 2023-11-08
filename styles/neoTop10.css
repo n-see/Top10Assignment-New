@@ -1,0 +1,23 @@
+
+body{
+    background-image: url("../media/images/BGStars.png");
+    color: #FFDE00;
+    font-family: 'Comic Sans MS', cursive;
+}
+.navbar{
+    height: 100px;
+    background-color: #FFD90F !important;
+}
+.logo{
+    height: 100px;
+}
+.blip{
+    text-align: center;
+    margin-top: 20px;
+}
+.accordion{
+    margin-bottom: 30px;
+}
+.starImg{
+    width: 400px;
+}
