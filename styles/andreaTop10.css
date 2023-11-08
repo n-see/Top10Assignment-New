@@ -1,0 +1,45 @@
+/* Body */
+body {
+    background-image: url('../media/images/Background.png') !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFD90F;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #FFD90F;
+}
+
+/* Logo */
+.navbar .logo {
+    max-width: 150px; /* Adjust width as needed */
+}
+
+/* H1 heading */
+h1 {
+    text-align: center;
+}
+
+/* Center-aligned text */
+.center-text {
+    text-align: center;
+}
+
+/* Card titles */
+.card-title {
+    color: black;
+}
+
+/* Card text */
+.card-text {
+    color: black;
+}
+
+/* Footer */
+.footer {
+    background-color: #2E383F;
+    color: #ECECEB;
+}
