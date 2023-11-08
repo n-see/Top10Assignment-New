@@ -1,6 +1,6 @@
 
 body{
-    background-image: url("../media/images/BGStars.png");
+    background-image: url("../media/images/Background.png");
     color: #FFDE00;
     font-family: 'Comic Sans MS', cursive;
 }
@@ -20,7 +20,7 @@ body{
 }
 
 .card{
-    background-image: url(../media/images/BGStars.png);
+    background-image: url("../media/images/Background.png");
     color: #FFDE00;
 }
 
