@@ -11,8 +11,10 @@ Has CSS applied properly
 All pages look like they belong to the same site.
 For every item, you must provide content, videos & Images.
 
-peer reviewed by:
-peer reviewer comments:
+Peer reviewed by Neng Lao and Johnny Pham
+
+Peer reviewer comments: Navbar should be within the container fluid class to make it consistent and responsive with the other pages.
+Other than that extremely great job. It looks just like a real professionally made site.
 
 Links:
 Figma:
